@@ -1,0 +1,84 @@
+/* Ledger-style table overrides */
+.ledger-month-header {
+  background: #1a2744;
+  color: #c9a84c;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  font-size: 0.7rem;
+  padding: 6px 2px;
+  border: 1px solid #c8b99a;
+}
+
+.ledger-sub-header {
+  background: #2c4a8c;
+  color: #fff;
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.6rem;
+  padding: 4px 2px;
+  border: 1px solid #c8b99a;
+}
+
+.ledger-owner-cell {
+  background: #f5f0e8;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #1a2744;
+  padding: 6px 8px;
+  min-width: 140px;
+  border: 1px solid #c8b99a;
+  white-space: nowrap;
+}
+
+.ledger-amount-cell {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.68rem;
+  text-align: right;
+  padding: 4px 6px;
+  color: #1a5c2a;
+  border: 1px solid #c8b99a;
+  min-width: 70px;
+}
+
+.ledger-empty-cell {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.68rem;
+  text-align: center;
+  padding: 4px 6px;
+  color: #c8b99a;
+  border: 1px solid #c8b99a;
+  min-width: 60px;
+}
+
+.ledger-date-cell {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.63rem;
+  text-align: center;
+  padding: 4px 4px;
+  color: #4a5568;
+  border: 1px solid #c8b99a;
+  min-width: 55px;
+}
+
+.ledger-or-cell {
+  font-family: 'Courier Prime', monospace;
+  font-size: 0.63rem;
+  text-align: center;
+  padding: 4px 4px;
+  color: #8b1a1a;
+  border: 1px solid #c8b99a;
+  min-width: 50px;
+}
+
+.print-area {
+  display: none;
+}
+
+@media print {
+  .no-print { display: none !important; }
+  .print-area { display: block; }
+  body { background: white; }
+}
