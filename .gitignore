@@ -6,9 +6,29 @@ server/node_modules/
 # Build output
 client/dist/
 client/.vite/
+dist/
+release/
+win-unpacked/
 
-# Environment files (NEVER commit these)
+# Electron builder output
+*.exe
+*.exe.blockmap
+*.yml
+builder-debug.yml
+builder-effective-config.yaml
+latest.yml
+
+# SQLite database files - DO NOT COMMIT REAL OFFICE DATA
+server/data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Environment files - NEVER commit these
 server/.env
+client/.env
 .env
 
 # Logs
