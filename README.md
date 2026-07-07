@@ -246,16 +246,6 @@ You will see the **Treasurer's Office login page**.
 
 ---
 
-## 🔑 Demo Login Credentials
-
-The system uses **Employee ID only** (no password):
-
-| Employee ID  | Name               | Role    | Access Level                     |
-|--------------|--------------------|---------|----------------------------------|
-| `ADMIN-001`  | Bernadette Obañana       | Admin   | Full access + Revenue Collector   |
-| `CASH-001`   | Juan dela Cruz     | Cashier | All operations except staff mgmt |
-| `STAFF-001`  | Pedro Bautista     | Staff   | View + add/edit records          |
-
 ---
 
 ## 🔌 API Endpoints Reference
